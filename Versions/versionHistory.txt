@@ -1,0 +1,46 @@
+-^ Start of GitHub ^- 
+
+V7:
+* Fixed immediate shutdown when starting computer past given time or when timer started past given time.
+* Changed minimum time to 2 minutes.
+* Fixed spam of debug shutdown popup.
+
+V6:
+* Added new terminal / shortcut commands;
+	- safe // Safe Time in minutes to which you can edit the time. If you edit the timer after the end time minus the safe minutes, the computer shuts down (If 0 it is disabled) (0 by default)
+	- debug // Adds debug features when flagged 1, such as shutdown message instead of actual shutdown process. (0 by defaut)
+
+V5:
+* Added Next Day Checkbox which gives the user the choice if given time is for today or the next day
+* Fixed issue with notification not triggering if already triggered, timer stopped and then started again.
+* Renamed all the command prompt / shortcut commands to full words;
+	- h -> hours
+	- m -> minutes
+	- s -> seconds
+	- n -> notification
+	- p -> position
+	- i -> screen
+	- a -> start
+* Added new command prompt / shortcut command:
+	- tomorrow // If the time applies for the current day or the next (default 0) (0 or 1 boolean) 
+
+V4:
+* Formatted and Refactored code (clean  use of already given variables for view items and bundled methods)
+* Added new terminal / shortcut commands;
+    - i=0 // Index Screen on which the program will be launched (default 0) (0 or 1 boolean)
+    - a=1 // Auto start timer (default on 1, acts as Boolean 0 or 1)
+* Fixed time picker display bug
+* Fixed timer starting at 00:00:00 bug
+
+V3:
+* Implemented X position snap tool which works on currently located monitor
+* Made small timer smaller
+* Made it so the entire timer can be customized using the command prompt / shortcut commands and will start the timer automatically;
+    - h=24    // Target Hour
+    - m=55    // Target Minute
+    - s=55    // Target Second
+    - n=30    // Notification time in minutes
+    - p=0.5    // X position normalized (between 0 - 1)
+
+V2:
+* Creation of basic timer & shutdown functionality
