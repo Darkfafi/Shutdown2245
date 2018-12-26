@@ -7,8 +7,8 @@ V7:
 
 V6:
 * Added new terminal / shortcut commands;
-	- safe // Safe Time in minutes to which you can edit the time. If you edit the timer after the end time minus the safe minutes, the computer shuts down (If 0 it is disabled) (0 by default)
-	- debug // Adds debug features when flagged 1, such as shutdown message instead of actual shutdown process. (0 by defaut)
+	- safe=60 // Safe Time in minutes to which you can edit the time. If you edit the timer after the end time minus the safe minutes, the computer shuts down (If 0 it is disabled) (0 by default)
+	- debug=0 // Adds debug features when flagged 1, such as shutdown message instead of actual shutdown process. (0 by defaut)
 
 V5:
 * Added Next Day Checkbox which gives the user the choice if given time is for today or the next day
@@ -22,7 +22,7 @@ V5:
 	- i -> screen
 	- a -> start
 * Added new command prompt / shortcut command:
-	- tomorrow // If the time applies for the current day or the next (default 0) (0 or 1 boolean) 
+	- tomorrow=0 // If the time applies for the current day or the next (default 0) (0 or 1 boolean) 
 
 V4:
 * Formatted and Refactored code (clean  use of already given variables for view items and bundled methods)
