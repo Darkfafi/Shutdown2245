@@ -21,5 +21,12 @@ Computer shutdown program to make life better &lt;3
 | `screen=0` | Index Screen on which the program will be launched | 0 | 0 or 1 |
 | `start=1` | Auto start timer | 1 | 0 or 1 |
 | `tomorrow=0` | If the time applies for the current day or the next | 0 | 0 or 1 |
-| `safe=60` | Safe Time in minutes to (If 0 it is disabled) | 0 | any integer number |
-| `debug=0` | Adds debug features when flagged 1, such as shutdown message instead of actual shutdown process | 0 | 0 or 1 |
+| `safe=60` | `Safe Mode` Time in minutes (If 0 it is disabled) | 0 | any integer number |
+| `debug=0` | `Debug Mode` Adds debug features when flagged 1 | 0 | 0 or 1 |
+
+## Safe Mode
+When you change the time or stop the timer when the current time is past safe mode, the computer will shut down immediately. This feature is off by default and can only be added through the customization options. This is to help you prevent yourself to lack from your wanted structure. 
+
+## Debug Mode
+When Debug mode is on, the following features are a given;
+* Shutdown message instead of actual shutdown
