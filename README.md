@@ -15,7 +15,7 @@ Computer shutdown program to make life better &lt;3
 
 | Command | Description | Default Value | Possible Values |
 | --- | --- | --- | --- |
-| `hours=24` | Target Hour | Current Hour | 0-24 |
+| `hours=23` | Target Hour | Current Hour | 0-23 |
 | `minutes=55` | Target Minute | Current Minute | 0-60 |
 | `seconds=55` | Target Second | Current Second | 0-60 |
 | `notification=30` | Notification time in minutes | 0 | any integer number |
