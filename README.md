@@ -1,6 +1,8 @@
 # Shutdown2245
 Computer shutdown program to make life better &lt;3
 
+### [>> Download <<](http://ramsesdiperna.com/FileHosting/Shutdown2455/Shutdown2544.exe)
+
 # Setup
 * Place the `.exe` wherever you like and make a shortcut.
 * Go to the startup folder of windows and place the shortcut there. (`shell:startup`)
